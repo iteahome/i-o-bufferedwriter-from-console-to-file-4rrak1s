@@ -15,8 +15,6 @@ public class BufferedWriterfromScanner {
                 String mycontent = sc.nextLine();
                 toWrite = toWrite + mycontent + "\n";
 
-                //List of commands
-
                 if (mycontent.equals("exit")) {
 
                     try {
